@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13511e20-133f-44c8-b7e7-18c9f7a63281" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/main/java/com/yhy/_01_hello_spring_security/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/main/java/com/yhy/_01_hello_spring_security/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/test/java/com/yhy/springsecuritydemo/_01_hello_spring_security/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/MybatisPlusSpringSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dao/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dao/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/filter/JwtAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/test/java/com/yhy/_02_mybatis_plus_spring_security/ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/_01_hello_spring_security">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\app\maven\apache-maven-3.9.6" />
+        <option name="localRepository" value="D:\app\maven\apache-maven-3.9.6\maven_repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\app\maven\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2pi2ewneMX6N21uVBaX2yg0gnvk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.ApplicationTests.TestBCryptPasswordEncoder (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApplicationTests.TestBCryptPasswordEncoder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ApplicationTests.testBCryptPasswordEncoder.executor&quot;: &quot;Run&quot;,
+    &quot;Maven._01_hello_spring_security [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven._02_mybatis_plus_spring_security [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven._02_mybatis_plus_spring_security [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.MybatisPlusSpringSecurityApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/copration/jfy/java/family-doctor-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\person\java\spring-security-demo\spring-security-demo\_02_mybatis_plus_spring_security\src\main\java\com\yhy\_02_mybatis_plus_spring_security\dao\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yhy._02_mybatis_plus_spring_security.entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MybatisPlusSpringSecurityApplication">
+    <configuration name="ApplicationTests.TestBCryptPasswordEncoder (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_02_mybatis_plus_spring_security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhy._02_mybatis_plus_spring_security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yhy._02_mybatis_plus_spring_security" />
+      <option name="MAIN_CLASS_NAME" value="com.yhy._02_mybatis_plus_spring_security.ApplicationTests" />
+      <option name="METHOD_NAME" value="TestBCryptPasswordEncoder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.TestBCryptPasswordEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_02_mybatis_plus_spring_security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security" />
+      <option name="MAIN_CLASS_NAME" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security.ApplicationTests" />
+      <option name="METHOD_NAME" value="TestBCryptPasswordEncoder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_02_mybatis_plus_spring_security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security" />
+      <option name="MAIN_CLASS_NAME" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security.ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.testBCryptPasswordEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_02_mybatis_plus_spring_security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security" />
+      <option name="MAIN_CLASS_NAME" value="com.yhy.springsecuritydemo._02_mybatis_plus_spring_security.ApplicationTests" />
+      <option name="METHOD_NAME" value="testBCryptPasswordEncoder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="_01_hello_spring_security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhy._01_hello_spring_security.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusSpringSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="_02_mybatis_plus_spring_security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhy._02_mybatis_plus_spring_security.MybatisPlusSpringSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder" />
+      <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder (1)" />
+      <item itemvalue="JUnit.ApplicationTests.testBCryptPasswordEncoder" />
+      <item itemvalue="JUnit.ApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.MybatisPlusSpringSecurityApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder (1)" />
+        <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder" />
+        <item itemvalue="JUnit.ApplicationTests.testBCryptPasswordEncoder" />
+        <item itemvalue="JUnit.ApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13511e20-133f-44c8-b7e7-18c9f7a63281" name="Changes" comment="" />
+      <created>1733234676784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733234676784</updated>
+      <workItem from="1733234677948" duration="2205000" />
+      <workItem from="1733410974486" duration="2621000" />
+      <workItem from="1733666612334" duration="706000" />
+      <workItem from="1733669508553" duration="2384000" />
+      <workItem from="1733753988589" duration="2962000" />
+      <workItem from="1733840891198" duration="3395000" />
+      <workItem from="1733844312463" duration="1266000" />
+      <workItem from="1733927630808" duration="2283000" />
+      <workItem from="1734355529609" duration="4342000" />
+      <workItem from="1734443077779" duration="2749000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
