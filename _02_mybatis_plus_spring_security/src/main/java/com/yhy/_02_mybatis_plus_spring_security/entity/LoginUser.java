@@ -12,11 +12,11 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/*
- *   @author:Nico
- *   @create date:2022/8/15 0015 10:31
- *   @mail:hjx674894982@gmail.com
-
+/**
+ * 登录用户封装对象
+ *
+ * @author yanghaoyu
+ * @date 2024/12/19 22:53:00
  */
 
 @Data
@@ -26,10 +26,31 @@ public class LoginUser implements UserDetails {
 
     private SysUser user;
 
+    //存储权限信息
+    private List<String> permissions;
 
+    public LoginUser(SysUser user, List<String> permissions) {
+        this.user = user;
+        this.permissions = permissions;
+    }
+
+    @JSONField(serialize = false)
+    private List<GrantedAuthority> authorities;
+
+    /**
+     * 获取权限信息
+     * @return 返回的是一个继承了GrantedAuthority类型的集合，这里选择其中一个实现类：SimpleGrantedAuthority
+     */
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        if (authorities != null) {
+            return authorities;
+        }
+
+        authorities = permissions.stream()
+                .map(SimpleGrantedAuthority::new)
+                .collect(Collectors.toList());
+        return authorities;
     }
 
     @Override

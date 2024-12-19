@@ -51,13 +51,14 @@ public class JwtAuthorizationFilter extends OncePerRequestFilter {
         LoginUser loginUser = redisUtils.getCacheObject("login:" + userId);
 
         if(Objects.isNull(loginUser)){
-            // 不保存，直接放行（之后写一个全局异常拦截器，拦截403。报未登录异常就可以了）
+            // 没有get到，说明登陆信息已经过期了，不设置到securityContextHolder里，
+            // 直接放行（之后写一个全局异常拦截器，拦截403。报未登录异常就可以了）
             filterChain.doFilter(request, response);
         }
 
         // 4.将用户信息放入到SecurityContextHolder中，方便后续获取
         // 这里创建一个UsernamePasswordAuthenticationToken，使用三个参数的构造器，会将Authenticated设置为true，表示已经认证过
-        UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(loginUser, null, null);
+        UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(loginUser, null, loginUser.getAuthorities());
         SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
         //放行
         filterChain.doFilter(request, response);

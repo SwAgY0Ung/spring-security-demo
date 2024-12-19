@@ -5,47 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13511e20-133f-44c8-b7e7-18c9f7a63281" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/main/java/com/yhy/_01_hello_spring_security/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/main/java/com/yhy/_01_hello_spring_security/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_hello_spring_security/src/test/java/com/yhy/springsecuritydemo/_01_hello_spring_security/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/MybatisPlusSpringSecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/FastJsonRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dao/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dao/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/filter/JwtAuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/utils/WebUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/test/java/com/yhy/_02_mybatis_plus_spring_security/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dao/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dao/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/MybatisPlusSpringSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/MybatisPlusSpringSecurityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/filter/JwtAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/filter/JwtAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,46 +81,47 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.ApplicationTests.TestBCryptPasswordEncoder (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApplicationTests.TestBCryptPasswordEncoder.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.ApplicationTests.testBCryptPasswordEncoder.executor&quot;: &quot;Run&quot;,
-    &quot;Maven._01_hello_spring_security [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven._02_mybatis_plus_spring_security [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven._02_mybatis_plus_spring_security [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.MybatisPlusSpringSecurityApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/copration/jfy/java/family-doctor-java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.ApplicationTests.TestBCryptPasswordEncoder (1).executor": "Run",
+    "JUnit.ApplicationTests.TestBCryptPasswordEncoder.executor": "Run",
+    "JUnit.ApplicationTests.contextLoads.executor": "Debug",
+    "JUnit.ApplicationTests.testBCryptPasswordEncoder.executor": "Run",
+    "Maven._01_hello_spring_security [clean].executor": "Run",
+    "Maven._02_mybatis_plus_spring_security [clean...].executor": "Run",
+    "Maven._02_mybatis_plus_spring_security [clean].executor": "Run",
+    "Maven._02_mybatis_plus_spring_security [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Debug",
+    "Spring Boot.MybatisPlusSpringSecurityApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/code/copration/jfy/java/medicine-trace",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -293,6 +268,11 @@
       <workItem from="1733927630808" duration="2283000" />
       <workItem from="1734355529609" duration="4342000" />
       <workItem from="1734443077779" duration="2749000" />
+      <workItem from="1734489868155" duration="2531000" />
+      <workItem from="1734534203587" duration="2947000" />
+      <workItem from="1734614772623" duration="5720000" />
+      <workItem from="1734624018376" duration="122000" />
+      <workItem from="1734624158163" duration="1306000" />
     </task>
     <servers />
   </component>
@@ -301,5 +281,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/LoginServiceImpl.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
