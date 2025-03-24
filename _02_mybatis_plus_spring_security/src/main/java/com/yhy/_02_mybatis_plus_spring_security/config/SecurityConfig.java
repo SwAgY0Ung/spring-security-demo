@@ -1,5 +1,7 @@
 package com.yhy._02_mybatis_plus_spring_security.config;
 
+import com.yhy._02_mybatis_plus_spring_security.exception.AccessDeniedHandlerImpl;
+import com.yhy._02_mybatis_plus_spring_security.exception.AuthenticationEntryPointImpl;
 import com.yhy._02_mybatis_plus_spring_security.filter.JwtAuthorizationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,6 +11,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.AuthenticationEntryPoint;
+import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import javax.annotation.Resource;
@@ -23,6 +27,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Resource
     private JwtAuthorizationFilter jwtAuthorizationFilter;
+    @Resource
+    private AuthenticationEntryPoint authenticationEntryPoint;
+    @Resource
+    private AccessDeniedHandler accessDeniedHandler;
 
     /**
      * 注入加密方式
@@ -57,5 +65,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         //把token校验过滤器添加到过滤器链中，放在UsernamePasswordAuthenticationFilter前面
         http.addFilterBefore(jwtAuthorizationFilter, UsernamePasswordAuthenticationFilter.class);
+
+        // 将自定义的认证失败的处理器、授权失败的处理器添加到异常处理器链中
+        http.exceptionHandling()
+                .authenticationEntryPoint(authenticationEntryPoint)
+                .accessDeniedHandler(accessDeniedHandler);
+
+        // 不仅springboot中的springmvc要配置允许跨域，还要在security中配置允许跨域
+        http.cors();
     }
 }

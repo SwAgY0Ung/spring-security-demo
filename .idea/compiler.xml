@@ -7,8 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_02_mybatis_plus_spring_security" />
-        <module name="_01_hello_spring_security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

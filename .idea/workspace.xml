@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13511e20-133f-44c8-b7e7-18c9f7a63281" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dao/SysMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/dao/mapper/SysMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/SysMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+    <list default="true" id="13511e20-133f-44c8-b7e7-18c9f7a63281" name="Changes" comment="初始化校验和授权代码">
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/exception/AccessDeniedHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/exception/AuthenticationEntryPointImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/security/CustomExpressionRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/MybatisPlusSpringSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/MybatisPlusSpringSecurityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/entity/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/filter/JwtAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/filter/JwtAuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +78,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FancyChristmasTree.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "JUnit.ApplicationTests.TestBCryptPasswordEncoder (1).executor": "Run",
     "JUnit.ApplicationTests.TestBCryptPasswordEncoder.executor": "Run",
@@ -101,17 +97,17 @@
     "Spring Boot.Application.executor": "Debug",
     "Spring Boot.MybatisPlusSpringSecurityApplication.executor": "Debug",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/code/copration/jfy/java/medicine-trace",
+    "last_opened_file_path": "D:/code/person/java/spring-security-demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
@@ -142,7 +138,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MybatisPlusSpringSecurityApplication">
+  <component name="RunManager" selected="Application.FancyChristmasTree">
+    <configuration name="FancyChristmasTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FancyChristmasTree" />
+      <module name="_02_mybatis_plus_spring_security" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationTests.TestBCryptPasswordEncoder (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_02_mybatis_plus_spring_security" />
       <extension name="coverage">
@@ -226,15 +229,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder" />
+      <item itemvalue="Application.FancyChristmasTree" />
       <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder (1)" />
-      <item itemvalue="JUnit.ApplicationTests.testBCryptPasswordEncoder" />
+      <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder" />
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.ApplicationTests.testBCryptPasswordEncoder" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.MybatisPlusSpringSecurityApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FancyChristmasTree" />
         <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder (1)" />
         <item itemvalue="JUnit.ApplicationTests.TestBCryptPasswordEncoder" />
         <item itemvalue="JUnit.ApplicationTests.testBCryptPasswordEncoder" />
@@ -272,15 +277,45 @@
       <workItem from="1734534203587" duration="2947000" />
       <workItem from="1734614772623" duration="5720000" />
       <workItem from="1734624018376" duration="122000" />
-      <workItem from="1734624158163" duration="1306000" />
+      <workItem from="1734624158163" duration="1960000" />
+      <workItem from="1734963113520" duration="609000" />
+      <workItem from="1735047586459" duration="3841000" />
+      <workItem from="1735134951164" duration="791000" />
+      <workItem from="1737385067205" duration="261000" />
+      <workItem from="1739112900241" duration="2000" />
+      <workItem from="1739188590909" duration="599000" />
+      <workItem from="1742822575009" duration="98000" />
+      <workItem from="1742822716295" duration="74000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化校验和授权代码">
+      <option name="closed" value="true" />
+      <created>1734626076182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734626076182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="初始化校验和授权代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化校验和授权代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -292,12 +327,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java</url>
-          <line>36</line>
+          <line>34</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/_02_mybatis_plus_spring_security/src/main/java/com/yhy/_02_mybatis_plus_spring_security/service/impl/UserDetailsServiceImpl.java</url>
-          <line>46</line>
+          <line>44</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
